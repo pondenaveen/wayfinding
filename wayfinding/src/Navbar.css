@@ -1,0 +1,181 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.10);
+}
+
+
+.navbar-logo img {
+    height: 50px !important;
+
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar-links li a:hover {
+    text-decoration: underline;
+}
+
+.main-container {
+    padding: 20px;
+}
+
+.cards-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card {
+    padding: 20px;
+    /* Adjust padding as needed */
+    border-radius: 10px;
+    height: 700px;
+    /* Adjust height as needed */
+}
+
+.header {
+    font-weight: bold;
+    font-size: 18px;
+    color: black !important;
+
+}
+
+.box-container {
+    background-color: #EDFFDB;
+    /* Light green background */
+    border: 1px solid #A5D6A7;
+    /* Light green border */
+    border-radius: 10px;
+    /* Rounded corners */
+    padding: 20px;
+    /* Padding inside the box */
+    display: flex;
+    align-items: center;
+
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.count-section {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+
+.card hr {
+    border: none;
+    border-top: 2px solid #fff;
+    margin: 0;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.card p {
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.header {
+    font-size: 40px;
+    color: white;
+
+}
+
+.count {
+    font-size: 100px !important;
+    font-weight: bold !important;
+    color: black !important;
+
+
+}
+
+.auth-footer {
+    position: fixed;
+
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    padding: 10px;
+    background-color: transparent !important;
+    border-top: none !important;
+    z-index: 1000;
+
+}
+
+.auth-footer .MuiTypography-subtitle2 {
+    color: black;
+}
+
+.auth-footer .MuiTypography-subtitle2:hover {
+    text-decoration: underline;
+}
+
+.foot {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.navbar-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 14px;
+    margin-left: auto;
+}
+
+.navbar-welcome-message {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.navbar-date,
+.navbar-time {
+    margin-bottom: 4px;
+}
+
+.navbar-profile-icon {
+    margin-top: 8px;
+}
+
+
+.css-11xjcf0-MuiPaper-root-MuiCard-root,
+.css-17fpknr-MuiPaper-root-MuiCard-root,
+.css-18gk82x-MuiPaper-root-MuiCard-root,
+.css-1l4jwpq-MuiPaper-root-MuiCard-root,
+.css-11wug4j-MuiPaper-root-MuiCard-root,
+.css-1i9ssqg-MuiPaper-root-MuiCard-root {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.css-1rl1og4-MuiGrid-root>.MuiGrid-item {
+    padding-top: 12px !important;
+}
+
+.css-1eex93v-MuiTooltip-tooltip{
+    background-color: white !important;
+}
